@@ -1,0 +1,40 @@
+p {
+	font-weight: bold;
+	font-family: "Segoe UI";
+}
+
+
+canvas {
+	/*background: radial-gradient(circle, #9fd38e, #56a33d, #396d28);*/
+	/*background: linear-gradient(to top, lightgrey, slategrey);*/
+	height: inherit;
+	width: inherit;
+	margin: 0 auto;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#canvasRed {
+	z-index: 1;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	/*background: linear-gradient(to bottom, #545454, #767676);*/
+	/*background: rgba(0,0,0,1);*/
+
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#canvasWrapper {
+	overflow: hidden;
+	position: relative;
+}
